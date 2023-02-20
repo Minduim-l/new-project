@@ -42,10 +42,11 @@ body {
 .credentials {
     text-align: center;
 }
+
 .credential {
     width: 200px;
-text-align: center;
-margin: 0 auto;
+    text-align: center;
+    margin: 0 auto;
 }
 
 .credential h3 {
@@ -56,6 +57,6 @@ margin: 0 auto;
 
 .credential input {
     border-radius: 10px;
-width: 200px;
-background-color:  #D9D9D9;
+    width: 200px;
+    background-color: #D9D9D9;
 }
