@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:wght@500&family=Jua&display=swap');
+
+
 * {
     padding: 0;
     margin: 0;
@@ -5,6 +8,7 @@
 }
 
 body {
+    font-family: 'Jua', sans-serif;
     background: linear-gradient(180deg, #ED5E5E 4.17%, #E67A7A 50%, #FF9393 100%);
     width: 100vw;
     height: 100vh;
@@ -16,10 +20,14 @@ body {
 
 .login-parent {
     background-color: white;
-    height: 66vh;
-    width: 20vw;
-
+    height: 500px;
+    width: 300px;
+border-radius: 10px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    border-width: 220px;
+    border-color: black;
 }
 
 .login-parent h1 {
@@ -27,11 +35,21 @@ body {
     margin-bottom: 30px;
 }
 
+.login-parent button {
+    font-family: 'Jua', sans-serif;
+    border-radius: 10px;
+background-color: #7766FF ;
+}
+
 .credentials {
-    display: inline-flex;
-    flex-direction: column;
+    /* display: inline-flex;
+    flex-direction: column; */
     gap: 15px;
+   margin-left: auto;
+   margin-right: auto;
     margin-bottom: 50px;
+width: 10vw ;
+position: relative;
 
 }
 
