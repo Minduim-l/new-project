@@ -28,17 +28,20 @@ body {
 }
 
 .credentials {
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
     gap: 15px;
     margin-bottom: 50px;
+
 }
 
 .credential {
 max-width: 200px;
+
 }
 
 .credential h3 {
 
 text-align: left;
+
 }
